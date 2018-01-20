@@ -1,0 +1,325 @@
+body{
+	font-family: 'Cookie', cursive;	
+}
+
+
+/*Aplicar a todos los div dentro de listadoproductos*/
+div#listadoproductos > div {
+	padding:15px;
+	
+}
+
+div#listadoproductos > div > p{
+	margin:0 auto;
+}
+
+
+div.absoluta{	
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;	
+}
+div.encima{
+	position: absolute;
+	margin-right:60%;
+	z-index: 1;	
+	top:20%;
+	width:40%;
+	/*
+	 -ms-transform: rotate(-20deg); /* IE 9 */
+    /*-webkit-transform: rotate(-20deg); /* Chrome, Safari, Opera */
+   /* transform: rotate(-20deg);*/
+	
+}
+
+
+
+div.mapa{
+		width:83,3%;
+		height:500px;
+	
+}
+
+
+div.alto500{
+	height:auto;
+	overflow:hidden;
+	
+}
+
+div.centrar {
+	margin:0 auto;
+	align-items: center;
+	justify-content: center;	
+		
+}
+
+div.espacio10 {
+	padding:10px;
+	
+}
+
+div.bg-verde{
+	background-color:#009900;
+	color:white;
+	
+}
+
+div.bg-naranja{
+	background-color:#FF9900;
+	color:white;	
+		
+}
+
+div.bg-rosa{
+	background-color:#FF33CC;
+	color:white;
+}
+
+div.pie{
+	font-size:0.7em;
+	line-height: 1em;
+}
+div.pie a{
+	text-decoration:none;
+	color:white;
+}
+
+div.relativoizquierda{
+	position:relative;
+	float:left;
+	width:30%;
+	
+}
+
+div.relativoderecha{
+	position:relative;
+	float:right;
+	padding-right:30px;	
+}
+
+
+
+/**
+	Listados
+ **/
+
+.navbar{
+	 margin:0px !important;
+	 border:0px !important;	 
+	 
+}
+ 
+ul.navegacion{
+	padding:25px 15px !important;	
+	margin:0 !important;	
+	border:0px  !important;	
+	position: relative  !important;	
+	height:100%  !important;
+	text-shadow: 1px 1px 1px #000, 2px 2px 2px #000;	
+	font-size:13pt;
+	
+}
+
+ul.navegacion li a{		
+	color:white  !important;
+
+}
+
+ul.navegacion li a:hover {
+	color:#FF8000  !important;
+	background-color:white  !important;
+		
+}
+
+ul.navegacion li a:focus {
+	color:#FF8000  !important;
+}
+
+
+
+/*Márgenes generales*/
+.margen20{	
+	margin-top:20px;
+	padding:5px;
+	
+}
+
+
+.margen5ciento{	
+	margin-top:5%;	
+	
+}
+.margen5cientodebajo{
+	margin-bottom:5%;
+	
+}
+
+.margen1{
+	margin-top:1%;	
+	
+}
+
+
+/*Clases espacio generales */
+.espacio1{
+	padding:1%;
+	
+}
+.espacio3{
+	padding:3%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Párrafos */
+
+
+.subrayado{
+	text-decoration:underline;
+}
+
+p.pieazulclaro{
+	color:#33FFFF;
+	font-weight:bold;
+	padding-top:5%;
+	
+}
+
+img.izquierda{
+	position: relative;
+	float:left;
+}
+
+img.centrada{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+.negrita{
+	font-weight:bold;	
+}
+
+.sombra{
+	text-shadow: 1px 1px 1px #000, 2px 2px 2px #000;	
+}
+
+p.centradovertical{
+	margin:0 auto;
+		
+}
+
+p.aviso{	
+	font-size:25pt;	
+}
+
+.small{
+	font-size:9pt;		
+}
+
+/**titulos**/
+h1,h2,h3,h4,h5,h6{
+		text-shadow: 1px 1px 1px #003366, 2px 2px 2px #003366;	
+}
+
+
+h1{	
+	font-size:25pt;
+}
+
+h2{
+		font-size:23pt;
+}
+
+
+.urlImg { 
+	width: 100%;
+	height:332px;	
+	background-size:cover;
+	display:block;
+	background-image: url('../images/coche2.jpg');
+	border-radius:12px;
+ }
+.urlImg:hover { 
+background-image: url('../images/coche.jpg');
+ }
+
+.url2Img { 
+	width: 100%;
+	height:332px;
+	background-size:cover;
+	display:block; 
+	background-image: url('../images/viaje2.jpg');
+	border-radius:12px;
+}
+.url2Img:hover {
+	background-image: url('../images/viaje.jpg');
+}
+
+
+hr{
+    height:1px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+	/*El salto en contratos */
+	clear:both;
+}
+
+hr.margen40arriba{
+	margin-top:40%;
+	
+}
+hr.margen5debajo{
+	margin-bottom:5%;
+	
+}
+
+table.margen5{
+	margin-top:5%;
+	margin-bottom:5%;
+	
+}
+
+form{
+	padding:15px 0px;
+	
+}
+
+
+
+.oculto{
+	display:none;
+	
+}
+
+.nomargen{
+	padding:0%;
+}
+
+
+
+div.claseparallax{	
+	background-image: url('../images/nina.jpg');
+	background-repeat:no-repeat; /* Indicamos que no se repetira */
+	background-size:cover; /* Encajamos la imagen al 100% del ancho */
+	background-attachment: fixed; /* Establecemos una posicion fija para la imagen */
+	height:700px;
+	
+ 
+}
+
+

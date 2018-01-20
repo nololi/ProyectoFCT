@@ -1,0 +1,2 @@
+BUSCAR EN class.smtp.php (modificado para certificados autofirmados)
+
